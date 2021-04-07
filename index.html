@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCC Restraurant</title>
+    <!-- font awesome css file -->
+    <link rel="stylesheet" href="./style/all.css">
+    <!-- local css file -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="homepage">
+        <nav class="nav flex-row">
+            <div class="brand-name">
+                <a href="#">
+                    <span>c</span>
+                    <span>c</span>
+                    <span>c</span>
+                    Restraurant
+                </a>
+            </div>
+            <div class="welcome flex-row">
+                <h2>hello <span id="get-name">{}</span> and welcome. happy shopping.</h2>
+                <div class="cart">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="user-input">
+            <form action="" class="form">
+                <h2>for a better experience: <i class="fas fa-arrow-down"></i></h2>
+                <div class="user">
+                    <label for="username">enter your name</label>
+                    <input type="text" name="username" id="user-name">
+                </div>
+                <input type="submit" value="add name" id="user-id" class="user-btn">
+            </form>
+        </div>
+
+        <!-- shopping items -->
+        <div class="shop-items">
+            <div class="cake-item">
+                <div class="item-name">
+                    <h2 class="flex-col">
+                        <span class="user-name-id"></span>
+                        shop cake
+                        <i class="fas fa-arrow-down"></i>
+                    </h2>
+                </div>
+
+                <!-- popup -->
+                <div class="popup">
+                    <div class="pop-items flex-col">
+                        <!-- #1 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/cake/chiffon1.jpg" alt="">
+                            <h2>chiffon cake</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #2 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/cake/pound1.jpg" alt="">
+                            <h2>pound cake</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #3 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/cake/buttercake1.jpg" alt="">
+                            <h2>butter cake</h2>
+                            <button class="order-btn">order</button>
+                        </div>                                                
+                    </div>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <div class="item-name">
+                    <h2 class="flex-col">
+                        <span class="user-name-id"></span>
+                        shop coffee
+                        <i class="fas fa-arrow-down"></i>
+                    </h2>
+                </div>
+
+                <!-- popup -->
+                <div class="popup">
+                    <div class="pop-items flex-col">
+                        <!-- #1 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/coffee/americano1.jpg" alt="">
+                            <h2>americano</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #2 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/coffee/espresso1.jpg" alt="">
+                            <h2>espresso</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #3 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/coffee/fogato1.jpg" alt="">
+                            <h2>fogato</h2>
+                            <button class="order-btn">order</button>
+                        </div>                                                
+                    </div>                    
+                </div>                
+            </div>
+            <div class="chicken-item">
+                <div class="item-name">
+                    <h2 class="flex-col">
+                        <span class="user-name-id"></span>
+                        shop chicken
+                        <i class="fas fa-arrow-down"></i>
+                    </h2>
+                </div>
+
+                <!-- popup -->
+                <div class="popup">
+                    <div class="pop-items flex-col">
+                        <!-- #1 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/chicken/fried-chicken.jpeg" alt="">
+                            <h2>fried</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #2 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/chicken/grilled-chicken.jpeg" alt="">
+                            <h2>grilled</h2>
+                            <button class="order-btn">order</button>
+                        </div>
+                        <!-- #3 -->
+                        <div class="items-info flex-row">
+                            <img src="./imgs/chicken/roast-chicken.jpeg" alt="">
+                            <h2>roasted</h2>
+                            <button class="order-btn">order</button>
+                        </div>                                                
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="ft">
+            <!-- contains three divs -->
+            <div class="align-ft">
+                <div class="div1 flex-row">
+                    <h2>we offer world-class baked cakes</h2>
+                    <img src="./imgs/cake/chiffon2.jpg" alt="">
+                </div>
+                <div class="div2 flex-row">
+                    <h2>we offer world-class prepared coffee</h2>
+                    <img src="./imgs/coffee/espresso3.jpg" alt="">
+                </div>
+                <div class="div3 flex-row">
+                    <h2>we offer world-class cooked & fried chicken</h2>
+                    <img src="./imgs/chicken/roast-chicken.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- local script file -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
